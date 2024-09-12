@@ -1,7 +1,5 @@
-import Header from './header';
 import "./styles/reset.css";
 import "./styles/globals.css";
-
 
 export default function RootLayout({
   children,
@@ -12,7 +10,6 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        <Header />
         {children}
       </body>
     </html>
