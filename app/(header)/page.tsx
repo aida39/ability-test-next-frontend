@@ -1,7 +1,25 @@
 import Link from 'next/link';
 import "../styles/index.css";
+// import { useEffect, useState } from 'react';
+// import axios from 'axios';
 
 export default function Home() {
+  // const [categories, setCategory] = useState(null);
+
+  // useEffect(() => {
+  //   fetch('http://127.0.0.1:80/api/')
+  //     .then((res) => res.json())
+  //     .then((json) => {
+  //       setCategory(json.category);
+  //     });
+  // }, []);
+
+
+
+
+  // export const Categories = async () => {
+  // const categoryData = await getCategories();
+
   return (
     <div className="">
       <div className="contact-form__content">
@@ -112,9 +130,11 @@ export default function Home() {
               <div className="form__input--text">
                 <select name="category_id" >
                   <option value="">選択してください</option>
-                  {/* <option v-for="category in categoryLists" :key="category.id" :value="category">
-                  {{ category.content }}
-                </option> */}
+                  {/* {categories.map((category) => (
+                    <option key={category.id} value={category.id}>
+                      {category.content}
+                    </option>
+                  ))} */}
                 </select>
               </div>
             </div>
@@ -138,7 +158,7 @@ export default function Home() {
           </div>
           <div className="button__area">
             <Link className="common-button" href="/confirm">
-            確認画面
+              確認画面
             </Link>
           </div>
         </div>
