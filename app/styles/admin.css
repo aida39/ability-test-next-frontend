@@ -1,0 +1,204 @@
+body {
+    color: #8B7969;
+}
+
+.admin__heading {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.admin__content {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.admin__form__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin__form__input-area {
+    position: relative;
+    width: 35%;
+}
+
+.admin__form__item-keyword {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #E3DED9;
+    color: #BEB1A6;
+    background-color: #FBFBFB;
+}
+
+.admin__form__button {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    background-color: #FBFBFB;
+    cursor: pointer;
+}
+
+.admin__form__item-gender {
+    width: 10%;
+    height: 45px;
+    border: 1px solid #E3DED9;
+    color: #8b7969;
+    background-color: #f4f4f4;
+}
+
+.admin__form__item-category {
+    width: 20%;
+    height: 45px;
+    border: 1px solid #E3DED9;
+    color: #8b7969;
+    background-color: #f4f4f4;
+}
+
+.admin__form__item-date {
+    width: 20%;
+    height: 45px;
+    border: 1px solid #E3DED9;
+    color: #8b7969;
+    background-color: #f4f4f4;
+}
+
+.admin__function {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.download-button {
+    color: #8b7969;
+    background-color: #edeae6;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.admin__table__inner {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.admin__table__header {
+    height: 55px;
+    vertical-align: middle;
+    background-color: #8B7969;
+    color: #fff;
+    text-align: start;
+    padding-left: 50px;
+}
+
+.admin__table__row {
+    border: 1px solid #E3DED9;
+}
+
+.admin__table__text {
+    height: 80px;
+    padding-left: 50px;
+    vertical-align: middle;
+}
+
+.admin__table__text-email {
+    font-family: serif;
+}
+
+.modal-button {
+    padding: 5px 15px;
+    font-size: 16px;
+    border: 1px solid #E3DED9;
+    background-color: #FBFBFB;
+    color: #BEB1A6;
+    cursor: pointer;
+}
+
+#overlay {
+    /*　要素を重ねた時の順番　*/
+    z-index: 1;
+
+    /*　画面全体を覆う設定　*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: (0,0,0,0.5); */
+    /*　画面の中央に要素を表��させる設定　*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content {
+    z-index: 2;
+    width: 50%;
+    padding: 1em;
+    border: 1px solid #8B7969;
+    background: #fff;
+}
+
+.delete__container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.back-button {
+    display: flex;
+    justify-content: end;
+    margin: 20px 50px 0 0;
+}
+
+.back-button span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 31px;
+    border: 1px solid #8B7969;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.delete__table {
+    margin: 40px auto;
+
+}
+
+.delete__table__header {
+    text-align: start;
+    padding-right: 40px;
+}
+
+.delete__table__row {
+    height: 65px;
+}
+
+.delete-button {
+    padding: 10px 25px;
+    border: none;
+    background-color: #ba360e;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    border: 0.5px solid #E3DED9;
+    background-color: #FBFBFB;
+    color: #8B7969;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #8B7969;
+    color: #FBFBFB;
+}
