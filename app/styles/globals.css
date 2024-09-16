@@ -129,8 +129,8 @@ textarea {
 .form {
   display: flex;
   flex-direction: column;
-  margin: 80px auto;
-  width: 60%;
+  margin: 0 auto;
+  width: 70%;
 }
 
 .auth__form__group {
